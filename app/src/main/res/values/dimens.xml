@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text22_size">22sp</dimen>
+    <dimen name="text20_size">20sp</dimen>
+    <dimen name="text18_size">18sp</dimen>
+    <dimen name="text16_size">16sp</dimen>
+    <dimen name="text14_size">14sp</dimen>
+    <dimen name="text12_size">12sp</dimen>
+    <dimen name="text10_size">10sp</dimen>
+
+
+    <dimen name="dimen_size_02">0.2dp</dimen>
+    <dimen name="dimen_size_06">0.6dp</dimen>
+    <dimen name="dimen_size_0">0dp</dimen>
+    <dimen name="dimen_size_1">1dp</dimen>
+    <dimen name="dimen_size_2">2dp</dimen>
+    <dimen name="dimen_size_4">4dp</dimen>
+    <dimen name="dimen_size_6">6dp</dimen>
+    <dimen name="dimen_size_8">8dp</dimen>
+    <dimen name="dimen_size_10">10dp</dimen>
+    <dimen name="dimen_size_12">12dp</dimen>
+    <dimen name="dimen_size_14">14dp</dimen>
+    <dimen name="dimen_size_16">16dp</dimen>
+    <dimen name="dimen_size_18">18dp</dimen>
+    <dimen name="dimen_size_20">20dp</dimen>
+    <dimen name="dimen_size_22">22dp</dimen>
+    <dimen name="dimen_size_24">24dp</dimen>
+    <dimen name="dimen_size_26">26dp</dimen>
+    <dimen name="dimen_size_28">28dp</dimen>
+    <dimen name="dimen_size_30">30dp</dimen>
+    <dimen name="dimen_size_32">32dp</dimen>
+    <dimen name="dimen_size_34">34dp</dimen>
+    <dimen name="dimen_size_36">36dp</dimen>
+    <dimen name="dimen_size_38">38dp</dimen>
+    <dimen name="dimen_size_40">40dp</dimen>
+    <dimen name="dimen_size_42">42dp</dimen>
+    <dimen name="dimen_size_44">44dp</dimen>
+    <dimen name="dimen_size_46">46dp</dimen>
+    <dimen name="dimen_size_48">48dp</dimen>
+    <dimen name="dimen_size_50">50dp</dimen>
+    <dimen name="dimen_size_52">52dp</dimen>
+    <dimen name="dimen_size_54">54dp</dimen>
+    <dimen name="dimen_size_56">56dp</dimen>
+    <dimen name="dimen_size_58">58dp</dimen>
+    <dimen name="dimen_size_60">60dp</dimen>
+    <dimen name="dimen_size_62">62dp</dimen>
+    <dimen name="dimen_size_64">64dp</dimen>
+    <dimen name="dimen_size_66">66dp</dimen>
+    <dimen name="dimen_size_68">68dp</dimen>
+    <dimen name="dimen_size_70">70dp</dimen>
+    <dimen name="dimen_size_72">72dp</dimen>
+    <dimen name="dimen_size_78">78dp</dimen>
+    <dimen name="dimen_size_80">80dp</dimen>
+    <dimen name="dimen_size_82">82dp</dimen>
+    <dimen name="dimen_size_86">86dp</dimen>
+    <dimen name="dimen_size_90">90dp</dimen>
+    <dimen name="dimen_size_100">100dp</dimen>
+
+
+</resources>

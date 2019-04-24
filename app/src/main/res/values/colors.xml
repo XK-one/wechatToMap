@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_white">#ffffffff</color>
+    <color name="text_gray">#303030</color><!--字体灰色-->
+    <color name="text_gray_01">#606060</color>
+    <color name="item_line_cover">#cccccc</color>
+    <color name="color_orange">#fe9311</color>
+    <color name="color_dialog_text">#2e2e2e</color>
+    <color name="gray_6">#666666</color>
+    <color name="item_line">#dedede</color>
+    <color name="gray_9">#999999</color>
+    <color name="color_head_blue">#960019</color>
+    <color name="color_gray_backgroud">#f4f4f4</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="THEME_SELECTOR_NOMAL">#b9717d</color>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">仿微信发送定位</string>
+    <string name="usercenter_selete_address_gps_close">检测到GPS未开启，是否前往\"设置\"中开启</string>
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="baidu_location_address">位置</string>
+    <string name="baidu_location_send">发送</string>
+    <string name="button_goto_setting">去设置</string>
+    <string name="button_refuse">拒绝</string>
+    <string name="loading_progress">加载中...</string>
+    <string name="web_im_sending_address">正在发送定位,请稍候...</string>
+    <string name="permission_access_coarse_location">定位</string>
+    <string name="search_input_content_empty">搜索内容为空,请输入.</string>
+    <string name="usercenter_search_no_result">没有搜索到结果</string>
+    <string name="finish_search_address">完成搜索</string>
+    <string name="web_im_get_address_failure">定位获取失败，无法发送</string>
+    <string name="result_gps_confirm_close">GPS定位设置未开启</string>
+    <string name="alert_upload_img">截图已获取到,待上传</string>
+    <string name="baidu_local">百度地图_服务</string>
+    <string name="app">该APP</string>
+
+
+</resources>

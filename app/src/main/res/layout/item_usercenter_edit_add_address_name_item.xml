@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@color/color_white"
+              android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_usercenter_edit_add_address_blockname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:singleLine="true"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/text16_size"/>
+        <TextView
+            android:id="@+id/tv_usercenter_edit_add_address_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:singleLine="true"
+            android:textColor="@color/text_gray_01"
+            android:textSize="@dimen/text14_size"
+            />
+
+
+</LinearLayout>

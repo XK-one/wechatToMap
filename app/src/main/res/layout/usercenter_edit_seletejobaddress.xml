@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_backgroud">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_base_item_header1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/test_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_usercenter_edit_myintroduction"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_usercenter_edit_selete_job_address_search_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:clickable="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="6dp"
+                android:src="@drawable/localbaidu_search" />
+
+            <!--        <item name="android:imeOptions">actionSearch</item>-->
+            <EditText
+                android:id="@+id/et_usercenter_edit_selete_job_address_search_input"
+                style="@style/EditTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="搜索"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="@color/text_gray_01"
+                android:textSize="@dimen/text16_size" />
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/item_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+                <com.baidu.mapapi.map.MapView
+                    android:id="@+id/mpv_usercenter_edit_selete_job_address_baidu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/iv_map_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/location_origin_point"
+                    android:layout_above="@+id/space_selete_address"
+                    android:layout_centerHorizontal="true"/>
+
+                <Space
+                    android:id="@+id/space_selete_address"
+                    android:layout_height="@dimen/dimen_size_2"
+                    android:layout_width="@dimen/dimen_size_2"
+                    android:layout_centerInParent="true"/>
+                <Button
+                    android:id="@+id/btn_edit_address_center"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/location_gps"/>
+            </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/item_line" />
+
+        <ListView
+            android:id="@+id/lv_usercenter_edit_selete_job_address_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"></ListView>
+    </LinearLayout>
+
+</RelativeLayout>

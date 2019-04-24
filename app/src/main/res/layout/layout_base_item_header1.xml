@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_base_header"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="@color/color_head_blue"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="46dp">
+
+            <Button
+                android:id="@+id/btn1_header1_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_app_title_style"
+                android:clickable="true"
+                android:maxHeight="42dp"
+                android:maxWidth="50dp"
+                android:text="取消"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text16_size"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header1_center_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text18_size"
+            android:visibility="visible" />
+
+
+        <!-- @drawable/selector_app_title_style-->
+        <Button
+            android:id="@+id/btn1_header1_save"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_app_title_style"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:maxHeight="42dp"
+            android:text="保存"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text16_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
